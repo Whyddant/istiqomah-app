@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Majelis Taklim Al-Istiqomah</title>
+  <meta name="description" content="Informasi dan kegiatan Majelis Taklim Al-Istiqomah, Masjid Jami' Al-Ikhlas Serua.">
+  <meta name="theme-color" content="#0B3D2E">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="lewati" href="#konten">Lewati ke isi</a>
+
+  <header class="kepala">
+    <div class="wrap kepala-isi">
+      <img class="logo" src="icons/logo-placeholder.png" width="48" height="48" alt="Logo Majelis Taklim Al-Istiqomah">
+      <div class="kepala-teks">
+        <p class="kepala-nama">Majelis Taklim Al-Istiqomah</p>
+        <p class="kepala-sub">Masjid Jami' Al-Ikhlas Serua</p>
+      </div>
+    </div>
+  </header>
+
+  <p id="info-contoh" class="band-contoh" hidden>
+    <span class="wrap">Data contoh. Sambungkan aplikasi ke Google Drive majelis untuk memakai data sebenarnya.</span>
+  </p>
+
+  <main id="konten" tabindex="-1">
+    <div class="wrap" id="layar"></div>
+  </main>
+
+  <nav class="navbawah" aria-label="Menu utama">
+    <a href="#beranda" data-tab="beranda">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v9.5h13V10"/><path d="M10 19.5v-5h4v5"/></svg>
+      <span>Beranda</span>
+    </a>
+    <a href="#arisan" data-tab="arisan">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 0 1-13.6 5.7"/><path d="M4 12a8 8 0 0 1 13.6-5.7"/><path d="M17.6 3.5v3.3h-3.3"/><path d="M6.4 20.5v-3.3h3.3"/></svg>
+      <span>Arisan</span>
+    </a>
+    <a href="#kas" data-tab="kas">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7.5h14a2 2 0 0 1 2 2V18a2 2 0 0 1-2 2H5.5A1.5 1.5 0 0 1 4 18.5z"/><path d="M4 7.5 15 4v3.5"/><circle cx="16.2" cy="13.8" r="1.1"/></svg>
+      <span>Kas</span>
+    </a>
+    <a href="#ibadah" data-tab="ibadah">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 6c-2-1.5-5-2-8-1.5v13c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5v-13C17 4 14 4.5 12 6z"/><path d="M12 6v13"/></svg>
+      <span>Ibadah</span>
+    </a>
+    <a href="#info" data-tab="info">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 17v-6a6 6 0 0 1 12 0v6l1.5 2h-15z"/><path d="M10 21a2 2 0 0 0 4 0"/></svg>
+      <span>Info</span>
+    </a>
+  </nav>
+
+  <!-- Penampil foto buku besar (layar penuh) -->
+  <div id="penampil" class="penampil" role="dialog" aria-modal="true" aria-labelledby="penampil-judul" hidden>
+    <div class="penampil-atas">
+      <h2 id="penampil-judul">Buku besar saya</h2>
+      <button type="button" class="tombol tombol-kecil tombol-gelap" id="penampil-tutup">Tutup</button>
+    </div>
+    <p id="penampil-petunjuk" class="penampil-petunjuk" hidden></p>
+    <div class="penampil-area" id="penampil-area" tabindex="0">
+      <img id="penampil-gambar" alt="Foto buku besar milik Anda">
+    </div>
+    <div class="penampil-bawah">
+      <button type="button" class="tombol tombol-kecil tombol-gelap" id="zoom-kecil" aria-label="Perkecil">Perkecil</button>
+      <span id="zoom-nilai" class="zoom-nilai" aria-live="polite">100%</span>
+      <button type="button" class="tombol tombol-kecil tombol-gelap" id="zoom-besar" aria-label="Perbesar">Perbesar</button>
+    </div>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <input type="file" id="berkas-foto" accept="image/*" hidden>
+
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

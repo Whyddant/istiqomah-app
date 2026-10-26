@@ -1,0 +1,37 @@
+{
+  "contoh": true,
+  "lokasi_default": "Masjid Jami' Al-Ikhlas Serua",
+  "narik": {
+    "tanggal": "2026-10-30",
+    "nama": "Jaiming",
+    "no_anggota": 27,
+    "lokasi": ""
+  },
+  "kegiatan": [
+    {
+      "nama": "Subuh Keliling",
+      "aturan": "Setiap Sabtu subuh, dua minggu sekali",
+      "hari": 6,
+      "interval_minggu": 2,
+      "jangkar": "",
+      "waktu": "Subuh",
+      "lokasi": ""
+    },
+    {
+      "nama": "Kajian Ahad Pagi",
+      "aturan": "Setiap Minggu pagi",
+      "hari": 0,
+      "interval_minggu": 1,
+      "jangkar": "",
+      "waktu": "Pagi",
+      "lokasi": ""
+    }
+  ],
+  "pengumuman": [
+    {
+      "judul": "Contoh pengumuman",
+      "tanggal": "2026-10-24",
+      "isi": "Pengumuman dari Admin Artikel akan tampil di sini."
+    }
+  ]
+}

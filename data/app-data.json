@@ -2,10 +2,11 @@
   "contoh": true,
   "lokasi_default": "Masjid Jami' Al-Ikhlas Serua",
   "narik": {
-    "tanggal": "2026-10-30",
+    "tanggal": "2026-10-29",
     "nama": "Jaiming",
     "no_anggota": 27,
-    "lokasi": ""
+    "lokasi": "",
+    "waktu": "Ba'da Isya"
   },
   "kegiatan": [
     {
@@ -32,6 +33,69 @@
       "judul": "Contoh pengumuman",
       "tanggal": "2026-10-24",
       "isi": "Pengumuman dari Admin Artikel akan tampil di sini."
+    }
+  ],
+  "banner": [
+    {
+      "jenis": "penting",
+      "judul": "Contoh info penting",
+      "isi": "Banner dari Admin Artikel tampil di sini, di atas kartu narik, dan hilang sendiri setelah masa tayangnya berakhir.",
+      "sampai": "2026-12-31"
+    }
+  ],
+  "kajian": [
+    {
+      "jenis": "tausiyah",
+      "tanggal": "2026-10-22",
+      "judul": "Contoh: Menjaga lisan",
+      "penceramah": "Ustaz contoh",
+      "ringkasan": "Ini contoh ringkasan tausiyah malam Jumat. Lisan adalah nikmat yang perlu dijaga, karena banyak perselisihan bermula dari kata yang tidak dipikirkan lebih dulu. Ringkasan lengkap diisi oleh Admin Artikel dan bisa dibuka lewat tombol Baca selengkapnya."
+    },
+    {
+      "jenis": "kajian",
+      "tanggal": "2026-10-25",
+      "judul": "Contoh: Adab bertetangga",
+      "penceramah": "",
+      "ringkasan": "Contoh ringkasan pendek kajian Ahad pagi."
+    }
+  ],
+  "kas": {
+    "saldo": 3750000,
+    "pekan": {
+      "dari": "2026-10-23",
+      "sampai": "2026-10-29",
+      "total": 900000,
+      "rincian": [
+        {
+          "tanggal": "2026-10-23",
+          "keterangan": "Contoh: iuran kas pekan ini",
+          "jumlah": 900000
+        }
+      ]
+    },
+    "pengeluaran": [
+      {
+        "tanggal": "2026-10-25",
+        "keterangan": "Contoh: air galon",
+        "jumlah": 150000
+      },
+      {
+        "tanggal": "2026-10-12",
+        "keterangan": "Contoh: santunan",
+        "jumlah": 300000
+      }
+    ],
+    "diperbarui": "2026-10-26"
+  },
+  "donasi": [
+    {
+      "judul": "Contoh: Infaq majelis",
+      "keterangan": "Data contoh, bukan rekening sebenarnya. Pengurus mengisi rekening dan QRIS asli.",
+      "bank": "Bank Contoh",
+      "nomor": "1234 5678 90",
+      "atas_nama": "Majelis Taklim Al-Istiqomah",
+      "qris_url": "",
+      "sampai": ""
     }
   ]
 }

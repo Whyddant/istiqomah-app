@@ -1,9 +1,9 @@
 /* Penyimpanan pribadi di HP anggota (IndexedDB).
  *
- * Dipakai untuk satu dokumen saja: foto buku besar milik anggota. Foto ini
+ * Dipakai untuk satu dokumen saja: foto lembar omzet milik anggota. Foto ini
  * tidak pernah dikirim ke server dan tidak terlihat oleh anggota lain.
  * Satu kali simpan berlaku sampai anggota itu mendapat arisan lagi dan
- * buku besarnya berubah.
+ * lembar omzetnya berubah.
  */
 window.Penyimpanan = (function () {
   "use strict";

@@ -1,15 +1,18 @@
 /* Service worker: menyimpan "kerangka" aplikasi agar tetap terbuka tanpa sinyal.
  * Data dinamis (narik, jadwal) disimpan oleh aplikasi sendiri, bukan di sini.
  * Naikkan VERSI setiap kali file aplikasi berubah supaya HP anggota memperbarui. */
-const VERSI = "al-istiqomah-v1";
+const VERSI = "al-istiqomah-v11";
 const KERANGKA = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
   "./css/styles.css",
   "./js/config.js",
+  "./js/tampilan.js",
   "./js/data.js",
+  "./js/salat.js",
   "./js/store.js",
+  "./js/admin.js",
   "./js/app.js",
   "./icons/logo-placeholder.png",
   "./icons/pola-bintang.svg",
@@ -48,7 +51,9 @@ self.addEventListener("fetch", (e) => {
 
   // Data contoh (data/) selalu diambil dari jaringan. Salinan cadangannya
   // disimpan oleh aplikasi sendiri, supaya info narik tidak basi.
-  if (url.pathname.indexOf("/data/") !== -1) return;
+  // Buku zikir (data/zikir) dan sejarah majelis dikecualikan: isinya jarang berubah dan harus bisa
+  // dibaca tanpa sinyal, jadi diperlakukan seperti berkas lain di bawah.
+  if (url.pathname.indexOf("/data/") !== -1 && url.pathname.indexOf("/data/zikir") === -1 && url.pathname.indexOf("/data/sejarah") === -1) return;
 
   // Halaman: coba jaringan dulu supaya versi baru cepat sampai,
   // jika gagal pakai salinan tersimpan.

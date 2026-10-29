@@ -10,6 +10,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
   <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
   <link rel="stylesheet" href="css/styles.css">
+  <script src="js/tampilan.js"></script>
 </head>
 <body>
   <a class="lewati" href="#konten">Lewati ke isi</a>
@@ -21,7 +22,18 @@
         <p class="kepala-nama">Majelis Taklim Al-Istiqomah</p>
         <p class="kepala-sub">Masjid Jami' Al-Ikhlas Serua</p>
       </div>
+      <button type="button" class="menu-tombol" id="menu-tombol" aria-label="Menu lainnya" aria-haspopup="true" aria-expanded="false" aria-controls="menu-daftar">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="5" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="12" cy="19" r="2"/></svg>
+      </button>
     </div>
+    <nav class="menu-daftar" id="menu-daftar" aria-label="Menu lainnya" hidden>
+      <ul>
+        <li><a href="#pengaturan">Pengaturan tampilan</a></li>
+        <li><a href="#sejarah">Sejarah majelis taklim</a></li>
+        <li><a href="#tentang">Tentang aplikasi</a></li>
+        <li><a href="#pengurus">Masuk pengurus</a></li>
+      </ul>
+    </nav>
   </header>
 
   <p id="info-contoh" class="band-contoh" hidden>
@@ -31,6 +43,16 @@
   <main id="konten" tabindex="-1">
     <div class="wrap" id="layar"></div>
   </main>
+
+  <footer class="kaki">
+    <div class="wrap">
+      <div id="kaki-sosmed-wadah" hidden>
+        <p class="kaki-judul">Ikuti kami</p>
+        <ul class="kaki-sosmed" id="kaki-sosmed"></ul>
+      </div>
+      <p class="kaki-info" id="kaki-info"></p>
+    </div>
+  </footer>
 
   <nav class="navbawah" aria-label="Menu utama">
     <a href="#beranda" data-tab="beranda">
@@ -55,15 +77,15 @@
     </a>
   </nav>
 
-  <!-- Penampil foto buku besar (layar penuh) -->
+  <!-- Penampil foto lembar omzet (layar penuh) -->
   <div id="penampil" class="penampil" role="dialog" aria-modal="true" aria-labelledby="penampil-judul" hidden>
     <div class="penampil-atas">
-      <h2 id="penampil-judul">Buku besar saya</h2>
+      <h2 id="penampil-judul">Lembar omzet saya</h2>
       <button type="button" class="tombol tombol-kecil tombol-gelap" id="penampil-tutup">Tutup</button>
     </div>
     <p id="penampil-petunjuk" class="penampil-petunjuk" hidden></p>
     <div class="penampil-area" id="penampil-area" tabindex="0">
-      <img id="penampil-gambar" alt="Foto buku besar milik Anda">
+      <img id="penampil-gambar" alt="Foto lembar omzet milik Anda">
     </div>
     <div class="penampil-bawah">
       <button type="button" class="tombol tombol-kecil tombol-gelap" id="zoom-kecil" aria-label="Perkecil">Perkecil</button>
@@ -78,7 +100,9 @@
 
   <script src="js/config.js"></script>
   <script src="js/data.js"></script>
+  <script src="js/salat.js"></script>
   <script src="js/store.js"></script>
+  <script src="js/admin.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>

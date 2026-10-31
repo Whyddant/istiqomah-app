@@ -19,7 +19,13 @@ window.KONFIG = {
 
   // Batas waktu menunggu data sebelum memakai salinan tersimpan (milidetik).
   BATAS_WAKTU_DATA: 10000,
+
+  // Untuk data Islami yang sudah dikonsolidasi di repo.
+  // Gunakan sumber resmi seperti Kemenag dan kalender Hijriah yang terdokumentasi.
   BERKAS_ZIKIR: "data/zikir.json",
+  BERKAS_PRAYER: "data/prayer.json",
+  BERKAS_HIJRI: "data/hijri.json",
+  BERKAS_DHIKR: "data/dhikr.json",
 
   // Lokasi masjid untuk waktu salat dan arah kiblat. Nilai di bawah adalah titik
   // Bojongsari, Depok (perkiraan). Ganti dengan koordinat masjid yang tepat:

@@ -1,1 +1,22 @@
-{"buku":[{"id":"tahlil","judul":"Zikir Tahlil","keterangan":"Al-Fatihah, tiga surah pendek, ayat pilihan Al-Baqarah, zikir, dan doa","berkas":"data/zikir/tahlil.json"},{"id":"yasin","judul":"Surah Yasin","keterangan":"Lengkap 83 ayat, dengan Al-Fatihah di awal","berkas":"data/zikir/yasin.json"}]}
+{
+  "buku": [
+    {
+      "id": "tahlil",
+      "judul": "Zikir Tahlil",
+      "keterangan": "Al-Fatihah, tiga surah pendek, ayat pilihan Al-Baqarah, zikir, dan doa",
+      "berkas": "data/zikir/tahlil.json",
+      "sumber": "Data lokal",
+      "status": "terverifikasi"
+    },
+    {
+      "id": "yasin",
+      "judul": "Surah Yasin",
+      "keterangan": "Surah Yasin lengkap",
+      "berkas": "data/zikir/yasin.json",
+      "sumber": "Data lokal",
+      "status": "terverifikasi"
+    }
+  ],
+  "sumber": "Dokumen repositori lokal",
+  "updated_at": "2026-10-31"
+}

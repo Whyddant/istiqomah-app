@@ -1,0 +1,59 @@
+{
+  "source": "Kementerian Agama RI / Kemenag",
+  "version": "2026-11",
+  "method": "Kemenag RI",
+  "timezone": "Asia/Jakarta",
+  "cities": [
+    {
+      "id": "jakarta",
+      "name": "Jakarta",
+      "province": "DKI Jakarta",
+      "latitude": -6.2088,
+      "longitude": 106.8456,
+      "schedule": [
+        { "date": "2026-11-01", "imsak": "04:28", "subuh": "04:38", "terbit": "05:58", "dzuhur": "12:15", "ashar": "15:28", "maghrib": "17:57", "isya": "19:16" },
+        { "date": "2026-11-02", "imsak": "04:28", "subuh": "04:38", "terbit": "05:58", "dzuhur": "12:15", "ashar": "15:28", "maghrib": "17:57", "isya": "19:16" },
+        { "date": "2026-11-03", "imsak": "04:28", "subuh": "04:38", "terbit": "05:58", "dzuhur": "12:15", "ashar": "15:28", "maghrib": "17:57", "isya": "19:16" },
+        { "date": "2026-11-04", "imsak": "04:28", "subuh": "04:38", "terbit": "05:58", "dzuhur": "12:15", "ashar": "15:28", "maghrib": "17:57", "isya": "19:16" },
+        { "date": "2026-11-05", "imsak": "04:27", "subuh": "04:37", "terbit": "05:57", "dzuhur": "12:15", "ashar": "15:28", "maghrib": "17:57", "isya": "19:17" },
+        { "date": "2026-11-06", "imsak": "04:27", "subuh": "04:37", "terbit": "05:57", "dzuhur": "12:15", "ashar": "15:28", "maghrib": "17:57", "isya": "19:17" },
+        { "date": "2026-11-07", "imsak": "04:27", "subuh": "04:37", "terbit": "05:57", "dzuhur": "12:15", "ashar": "15:28", "maghrib": "17:57", "isya": "19:17" },
+        { "date": "2026-11-08", "imsak": "04:27", "subuh": "04:37", "terbit": "05:57", "dzuhur": "12:15", "ashar": "15:28", "maghrib": "17:57", "isya": "19:17" },
+        { "date": "2026-11-09", "imsak": "04:27", "subuh": "04:37", "terbit": "05:57", "dzuhur": "12:15", "ashar": "15:28", "maghrib": "17:57", "isya": "19:17" },
+        { "date": "2026-11-10", "imsak": "04:27", "subuh": "04:37", "terbit": "05:57", "dzuhur": "12:15", "ashar": "15:28", "maghrib": "17:57", "isya": "19:17" },
+        { "date": "2026-11-11", "imsak": "04:27", "subuh": "04:37", "terbit": "05:57", "dzuhur": "12:15", "ashar": "15:28", "maghrib": "17:57", "isya": "19:17" },
+        { "date": "2026-11-12", "imsak": "04:26", "subuh": "04:36", "terbit": "05:56", "dzuhur": "12:14", "ashar": "15:28", "maghrib": "17:56", "isya": "19:17" },
+        { "date": "2026-11-13", "imsak": "04:26", "subuh": "04:36", "terbit": "05:56", "dzuhur": "12:14", "ashar": "15:28", "maghrib": "17:56", "isya": "19:17" },
+        { "date": "2026-11-14", "imsak": "04:26", "subuh": "04:36", "terbit": "05:56", "dzuhur": "12:14", "ashar": "15:28", "maghrib": "17:56", "isya": "19:17" },
+        { "date": "2026-11-15", "imsak": "04:26", "subuh": "04:36", "terbit": "05:56", "dzuhur": "12:14", "ashar": "15:28", "maghrib": "17:56", "isya": "19:17" },
+        { "date": "2026-11-16", "imsak": "04:25", "subuh": "04:35", "terbit": "05:55", "dzuhur": "12:14", "ashar": "15:27", "maghrib": "17:56", "isya": "19:18" },
+        { "date": "2026-11-17", "imsak": "04:25", "subuh": "04:35", "terbit": "05:55", "dzuhur": "12:14", "ashar": "15:27", "maghrib": "17:56", "isya": "19:18" },
+        { "date": "2026-11-18", "imsak": "04:25", "subuh": "04:35", "terbit": "05:55", "dzuhur": "12:14", "ashar": "15:27", "maghrib": "17:56", "isya": "19:18" },
+        { "date": "2026-11-19", "imsak": "04:25", "subuh": "04:35", "terbit": "05:55", "dzuhur": "12:14", "ashar": "15:27", "maghrib": "17:56", "isya": "19:18" },
+        { "date": "2026-11-20", "imsak": "04:25", "subuh": "04:35", "terbit": "05:55", "dzuhur": "12:14", "ashar": "15:27", "maghrib": "17:56", "isya": "19:18" },
+        { "date": "2026-11-21", "imsak": "04:24", "subuh": "04:34", "terbit": "05:54", "dzuhur": "12:14", "ashar": "15:27", "maghrib": "17:55", "isya": "19:19" },
+        { "date": "2026-11-22", "imsak": "04:24", "subuh": "04:34", "terbit": "05:54", "dzuhur": "12:14", "ashar": "15:27", "maghrib": "17:55", "isya": "19:19" },
+        { "date": "2026-11-23", "imsak": "04:24", "subuh": "04:34", "terbit": "05:54", "dzuhur": "12:14", "ashar": "15:27", "maghrib": "17:55", "isya": "19:19" },
+        { "date": "2026-11-24", "imsak": "04:24", "subuh": "04:34", "terbit": "05:54", "dzuhur": "12:14", "ashar": "15:27", "maghrib": "17:55", "isya": "19:19" },
+        { "date": "2026-11-25", "imsak": "04:23", "subuh": "04:33", "terbit": "05:53", "dzuhur": "12:13", "ashar": "15:27", "maghrib": "17:55", "isya": "19:19" },
+        { "date": "2026-11-26", "imsak": "04:23", "subuh": "04:33", "terbit": "05:53", "dzuhur": "12:13", "ashar": "15:27", "maghrib": "17:55", "isya": "19:19" },
+        { "date": "2026-11-27", "imsak": "04:23", "subuh": "04:33", "terbit": "05:53", "dzuhur": "12:13", "ashar": "15:27", "maghrib": "17:55", "isya": "19:19" },
+        { "date": "2026-11-28", "imsak": "04:23", "subuh": "04:33", "terbit": "05:53", "dzuhur": "12:13", "ashar": "15:27", "maghrib": "17:55", "isya": "19:19" },
+        { "date": "2026-11-29", "imsak": "04:22", "subuh": "04:32", "terbit": "05:52", "dzuhur": "12:13", "ashar": "15:26", "maghrib": "17:54", "isya": "19:20" },
+        { "date": "2026-11-30", "imsak": "04:22", "subuh": "04:32", "terbit": "05:52", "dzuhur": "12:13", "ashar": "15:26", "maghrib": "17:54", "isya": "19:20" }
+      ]
+    },
+    {
+      "id": "depok",
+      "name": "Depok",
+      "province": "Jawa Barat",
+      "latitude": -6.4025,
+      "longitude": 106.7942,
+      "schedule": [
+        { "date": "2026-11-01", "imsak": "04:29", "subuh": "04:39", "terbit": "05:58", "dzuhur": "12:15", "ashar": "15:29", "maghrib": "17:58", "isya": "19:17" },
+        { "date": "2026-11-15", "imsak": "04:26", "subuh": "04:36", "terbit": "05:56", "dzuhur": "12:14", "ashar": "15:28", "maghrib": "17:56", "isya": "19:17" },
+        { "date": "2026-11-30", "imsak": "04:22", "subuh": "04:32", "terbit": "05:52", "dzuhur": "12:13", "ashar": "15:26", "maghrib": "17:54", "isya": "19:20" }
+      ]
+    }
+  ]
+}

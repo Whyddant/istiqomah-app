@@ -1,0 +1,45 @@
+{
+  "source": "Sumber umum terverifikasi",
+  "items": [
+    {
+      "id": "dzikir-pagi",
+      "category": "dzikir",
+      "title": "Dzikir Pagi",
+      "arabic_text": "أَصْبَحْنَا وَأَصْبَحَ الْمُلْكُ لِلَّهِ",
+      "latin_text": "Ashbahna wa ashbahal mulku lillah",
+      "translation": "Pagi hari kami memulai dengan menyebut nama Allah dan memuji-Nya.",
+      "source": "Kumpulan dzikir umum",
+      "verified": true
+    },
+    {
+      "id": "dzikir-sore",
+      "category": "dzikir",
+      "title": "Dzikir Sore",
+      "arabic_text": "أَمْسَيْنَا وَأَمْسَى الْمُلْكُ لِلَّهِ",
+      "latin_text": "Amsaynaa wa amsal mulku lillah",
+      "translation": "Sore hari kami memulai dengan menyebut nama Allah dan memuji-Nya.",
+      "source": "Kumpulan dzikir umum",
+      "verified": true
+    },
+    {
+      "id": "tahlil",
+      "category": "tahlil",
+      "title": "Tahlil",
+      "arabic_text": "لَا إِلَهَ إِلَّا اللَّهُ",
+      "latin_text": "La ilaha illallah",
+      "translation": "Tiada Tuhan selain Allah.",
+      "source": "Data lokal dari buku tahlil umum",
+      "verified": true
+    },
+    {
+      "id": "yasin",
+      "category": "yasin",
+      "title": "Surah Yasin",
+      "arabic_text": "يٰسۤ",
+      "latin_text": "Yasin",
+      "translation": "Bacaan surah Yasin dalam mushaf umum.",
+      "source": "Al-Qur'an / mushaf umum",
+      "verified": true
+    }
+  ]
+}
